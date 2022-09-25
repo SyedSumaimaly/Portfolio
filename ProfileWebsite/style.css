@@ -8,7 +8,7 @@
     color: white;
     padding-bottom: 6.3em;
     width: 100%;
-    height: 70vh;
+    /* height: 70vh; */
 }
 
 .main_heading {
@@ -21,27 +21,40 @@
     width: 50%;
 }
 
+.Rs {
+    padding: 4em;
+}
+
+.Rs ul li {
+    color: #6665ee;
+}
+
+.Rs ul li span {
+    color: white;
+}
+
 .main_profile {
     display: flex;
     align-items: right;
     width: 30%;
-    left: 60%;
-    top: 9%;
+    left: 65%;
+    top: 35%;
     position: absolute;
 
 }
 
 .main_profile img {
-    width: 100%;
+    width: 75%;
 }
 
-.main_profile svg{
+.main_profile svg {
     width: 00px;
 }
 
-img{
-    padding-top: -10px;
-    border: 1px solid white;
+img {
+    margin-top: 32px;
+    border: 3px solid #6665ee;
+    border-radius: 15px;
 }
 
 .main1 button {
@@ -71,24 +84,188 @@ p {
     margin-top: 2%;
 }
 
-.ed{
+.ed {
     background-color: red;
     width: 50%;
     padding: 2%;
     margin: 2em;
 }
 
-/* Skills */
+/* Portfolio */
 
-.skills{
+.p_detail {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    margin-top: 4%;
+    justify-content: space-around;
+    padding-bottom: 10%;
+}
+
+.card {
+    margin-top: 5%;
+    width: 40% !important;
+    background-color: #1b1b1b !important;
+}
+
+.card-title, .card-text{
+    color: white !important;
+}
+
+.card_search{
+    width: 90% !important;
+}
+
+.card_Olx{
+    width: 90% !important;
+}
+
+.card_detail_weather {
+    height: 9vh !important;
+}
+
+.Achor_waether {
+ 
+    height: 12% !important;
+}
+
+.card_detail_todo {
+    height: 5vh !important;
+}
+
+.Achor_todo {
+
+    height: 5% !important;
+}
+
+.card-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card_detail_reg {
+    height: 10vh !important;
+}
+
+.Achor_reg {
+    height: 15% !important;
+}
+
+
+.card_detail_quiz {
+    height: 5vh !important;
+}
+
+.Achor_quiz {
+    height: 5% !important;
+}
+
+
+.card_detail_post {
+    height: 3vh !important;
+}
+
+.Achor_post {
+    height: 2% !important;
+}
+
+.card_detail_cal {
+    height: 10vh !important;
+}
+
+.Achor_cal {
+    height: 15% !important;
+}
+
+.card_detail_search {
+    height: 10vh !important;
+}
+
+.Achor_search {
+    height: 10% !important;
+}
+
+.card_detail_olx {
+    height: 10vh !important;
+}
+
+.Achor_olx {
+    height: 5% !important;
+}
+
+.card_NFT{
+    width: 90% !important;
+}
+
+.card_detail_TQA {
+    height: 10vh !important;
+}
+
+.Achor_TQA {
+    height: 3% !important;
+}
+
+.card_TQA{
+    width: 90% !important;
+}
+
+.card-body {
+    width: 100%;
+    height: 20vh;
+    /* color: black; */
+    color: black !important;
+    /* background-color: red; */
+}
+
+.secPort {
     background-color: black;
     color: white;
 }
-.skills_head{
+
+/* Skills */
+
+.skills {
+    background-color: black;
+    color: white;
+}
+
+.skills_head {
     text-align: center;
     padding: 1em;
     padding-top: 3em;
     border-top: 1px solid #6665ee;
+}
+
+.R_detail {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    justify-content: center;
+    margin: 2%;
+}
+
+.R_div {
+    width: 50%;
+    padding: 1%;
+}
+
+.R_div h3 {
+    border-bottom: 1px solid #6665ee;
+}
+
+.R_li ul li {
+    color: #6665ee;
+}
+
+.R_li ul li span {
+    color: white;
+}
+
+.skl_head {
+    padding: 1%;
+    text-align: center;
 }
 
 .skills_bar {
@@ -107,7 +284,7 @@ p {
 
 .skills_bar .bar .info span {
     font-size: 17px;
-  
+
 }
 
 
@@ -122,12 +299,12 @@ p {
     box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0, 0.5),
         0px 1px rgba(225, 225, 225, 0.5);
 
-    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 
-@keyframes animate{
-    100%{
-transform: scaleX(1);
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
     }
 }
 
@@ -139,7 +316,7 @@ transform: scaleX(1);
     border-radius: 10px;
     transform-origin: left;
     transform: scaleX(0);
-    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 
 .progress_line span::before {
@@ -153,7 +330,7 @@ transform: scaleX(1);
     border-bottom-width: 0;
     border-right-width: 0;
     border-top-color: #6665ee;
- 
+
 }
 
 .progress_line span::after {
@@ -224,6 +401,10 @@ transform: scaleX(1);
     content: "40%";
 }
 
+.progress_line.wordpress span::after {
+    content: "60%";
+}
+
 /* Buttons */
 
 /* From uiverse.io by @satyamchaudharydev */
@@ -249,7 +430,7 @@ button {
     transition: .3s;
     z-index: 1;
     font-family: inherit;
-    color: white;
+    color: white !important;
 }
 
 button::before {
@@ -258,18 +439,25 @@ button::before {
     height: 300%;
     position: absolute;
     top: 50%;
+    color: whitem !important;
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
     background: #6665ee;
     transition: .5s ease;
     display: block;
     z-index: -1;
+    color: white !important;
 }
 
 button:hover::before {
     width: 105%;
+    color: white !important;
 }
 
 button:hover {
-    color: white;
+    color: white !important;
+}
+
+.card-link:hover{
+    color: white !important;
 }
